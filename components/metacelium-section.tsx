@@ -50,6 +50,20 @@ export function MetaceliumSection() {
             </p>
           </Card>
         </div>
+
+        <div className="mt-16 p-8 rounded-lg bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20">
+          <h3 className="text-3xl font-bold mb-4 text-center">
+            The <span className="text-primary font-mono">layer∅</span> Foundation
+          </h3>
+          <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto leading-relaxed">
+            Mushrooms are the <span className="text-primary font-mono">layer∅</span> organisms—the foundational 
+            stratum of trophic energy flows in ecological systems. They operate at the base layer, 
+            decomposing and transforming, channeling energy through networks of life. The{' '}
+            <span className="text-primary font-mono">layer∅ society</span> mirrors this ecological role: 
+            a foundational infrastructure that nourishes and connects, ever-present yet often invisible, 
+            operating beneath the extractive layers of conventional systems.
+          </p>
+        </div>
       </div>
     </section>
   )

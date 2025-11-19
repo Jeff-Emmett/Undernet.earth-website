@@ -68,6 +68,10 @@ export function PunkUnionSection() {
                   <span className="text-accent">→</span>
                   <span><strong className="text-foreground">Mycopunk:</strong> Decomposition and regeneration, network intelligence</span>
                 </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-accent">→</span>
+                  <span><strong className="text-foreground font-mono">layer∅ organisms:</strong> Fungi as the foundational trophic layer</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -75,8 +79,8 @@ export function PunkUnionSection() {
 
         <div className="text-center">
           <p className="text-lg text-muted-foreground italic max-w-2xl mx-auto">
-            "We are the fungi breaking down the dead wood of capitalism, 
-            the lichen colonizing the ruins, the mycelium connecting the forest floor."
+            "We are the <span className="font-mono text-primary">layer∅</span> organisms—the fungi breaking down the dead wood of capitalism, 
+            the lichen colonizing the ruins, the mycelium connecting the forest floor at the foundational stratum of energy flow."
           </p>
         </div>
       </div>

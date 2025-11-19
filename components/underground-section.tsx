@@ -69,6 +69,13 @@ export function UndergroundSection() {
               <p className="text-foreground font-semibold">→ Adapt continuously</p>
               <p className="text-muted-foreground text-sm">Evolution as strategy, mutation as tactic</p>
             </div>
+            <div className="space-y-2 md:col-span-2">
+              <p className="text-foreground font-semibold font-mono">→ Operate at layer∅</p>
+              <p className="text-muted-foreground text-sm">
+                Like mushrooms in trophic flows, be the foundational infrastructure that transforms energy 
+                and nourishes the ecosystem—ever-present, essential, yet invisible to extractive eyes
+              </p>
+            </div>
           </div>
         </div>
       </div>

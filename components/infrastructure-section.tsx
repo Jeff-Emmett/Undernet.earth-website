@@ -1,4 +1,4 @@
-import { Server, Database, Cloud, Lock } from 'lucide-react'
+import { Server, Database, Cloud, Lock, Cpu, Smartphone } from 'lucide-react'
 
 export function InfrastructureSection() {
   return (
@@ -18,21 +18,37 @@ export function InfrastructureSection() {
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                <Cloud className="w-6 h-6 text-primary" />
+                <Cpu className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Local Fog Computing</h3>
+                <h3 className="text-2xl font-bold mb-2">Fog Computing: zk-edge</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  The cloud was always someone else's computer. Fog computing brings computation 
-                  back to the edge, to the local, to the community. Process data where it's generated, 
-                  keep it close to home.
+                  Fully metadata encrypted zero-knowledge cosmo-local home routers running on custom 
+                  compute hardware called <span className="font-mono text-primary">zk-edge</span>. 
+                  The cloud was always someone else's computer—fog computing brings computation 
+                  back to the edge, to the local, to the community.
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                <Lock className="w-6 h-6 text-secondary" />
+                <Smartphone className="w-6 h-6 text-secondary" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-2">Mist Computing: The Mobile Mist</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Mobile interconnectivity that's local-first and offline-connection friendly. 
+                  The <span className="font-mono text-secondary">mobile mist</span> enables 
+                  peer-to-peer collaboration that adapts to unstable networks, keeping communities 
+                  connected even when the grid fails.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
+                <Lock className="w-6 h-6 text-accent" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-2">Data Sovereignty</h3>
@@ -78,11 +94,15 @@ export function InfrastructureSection() {
           <div className="space-y-3 font-mono text-sm">
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>
-              <span className="text-muted-foreground">mesh_networks --enable --community-owned</span>
+              <span className="text-muted-foreground">zk-edge --deploy --zero-knowledge --cosmo-local</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>
-              <span className="text-muted-foreground">fog_compute --local --edge-processing</span>
+              <span className="text-muted-foreground">mobile_mist --enable --local-first --offline-ready</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-accent">$</span>
+              <span className="text-muted-foreground">mesh_networks --enable --community-owned</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>
