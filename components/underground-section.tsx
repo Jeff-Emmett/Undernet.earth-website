@@ -1,5 +1,5 @@
-import { Shield, Shuffle, TrendingUp } from 'lucide-react'
-import { Card } from '@/components/ui/card'
+import { Shield, Shuffle, TrendingUp } from "lucide-react"
+import { Card } from "@/components/ui/card"
 
 export function UndergroundSection() {
   return (
@@ -10,8 +10,8 @@ export function UndergroundSection() {
             Building <span className="text-primary">Underground</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The most resilient networks grow beneath the surface, invisible to extractive systems, 
-            adapting faster than they can be captured or commodified.
+            The Undernet is not a platform. It is a pattern. A tactical stack for regenerative technologists, soilpunks,
+            lunarpunks, and off-grid dreamers.
           </p>
         </div>
 
@@ -22,8 +22,8 @@ export function UndergroundSection() {
             </div>
             <h3 className="text-xl font-bold">Staying Incoherent</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Resist legibility. When systems can't read you, they can't capture you. 
-              Embrace the glitch, the noise, the spaces between categories.
+              Resist legibility. When systems can't read you, they can't capture you. ZKN's mix-net-based routing
+              shields all communication—no IPs, no timing attacks, no fingerprint trails.
             </p>
           </Card>
 
@@ -33,8 +33,8 @@ export function UndergroundSection() {
             </div>
             <h3 className="text-xl font-bold">Rapid Adaptation</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Like mycelium responding to environmental changes, we evolve faster than 
-              extractive systems can adapt. Fluidity is resistance.
+              Like mycelium responding to environmental changes, we evolve faster than extractive systems can adapt.
+              Fluidity is resistance.
             </p>
           </Card>
 
@@ -44,38 +44,43 @@ export function UndergroundSection() {
             </div>
             <h3 className="text-xl font-bold">Emergent Resilience</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Strength through diversity and connection. No single point of failure, 
-              no central authority to corrupt or capture.
+              Strength through diversity and connection. No single point of failure, no central authority to corrupt or
+              capture.
             </p>
           </Card>
         </div>
 
         <div className="p-8 rounded-lg bg-muted/30 border border-border space-y-4">
-          <h3 className="text-2xl font-bold font-mono text-primary">{'> underground_principles'}</h3>
-          <div className="grid md:grid-cols-2 gap-4">
-            <div className="space-y-2">
-              <p className="text-foreground font-semibold">→ Build in the margins</p>
-              <p className="text-muted-foreground text-sm">Where surveillance is weak and control is loose</p>
+          <h3 className="text-2xl font-bold font-mono text-primary">{"> underground_principles"}</h3>
+          <div className="space-y-3 font-mono text-sm">
+            <div className="flex items-center gap-3">
+              <span className="text-accent">$</span>
+              <span className="text-muted-foreground">stay_incoherent --against-surveillance</span>
             </div>
-            <div className="space-y-2">
-              <p className="text-foreground font-semibold">→ Connect underground</p>
-              <p className="text-muted-foreground text-sm">Invisible networks that nourish resistance</p>
+            <div className="flex items-center gap-3">
+              <span className="text-accent">$</span>
+              <span className="text-muted-foreground">mesh_connect --resilient-by-design</span>
             </div>
-            <div className="space-y-2">
-              <p className="text-foreground font-semibold">→ Embrace illegibility</p>
-              <p className="text-muted-foreground text-sm">What can't be measured can't be managed</p>
+            <div className="flex items-center gap-3">
+              <span className="text-accent">$</span>
+              <span className="text-muted-foreground">adapt_fast --fail-safe-evolution</span>
             </div>
-            <div className="space-y-2">
-              <p className="text-foreground font-semibold">→ Adapt continuously</p>
-              <p className="text-muted-foreground text-sm">Evolution as strategy, mutation as tactic</p>
+            <div className="flex items-center gap-3">
+              <span className="text-accent">$</span>
+              <span className="text-muted-foreground">decompose_extraction --regenerate</span>
             </div>
-            <div className="space-y-2 md:col-span-2">
-              <p className="text-foreground font-semibold font-mono">→ Operate at layer∅</p>
-              <p className="text-muted-foreground text-sm">
-                Like mushrooms in trophic flows, be the foundational infrastructure that transforms energy 
-                and nourishes the ecosystem—ever-present, essential, yet invisible to extractive eyes
-              </p>
+            <div className="flex items-center gap-3">
+              <span className="text-accent">$</span>
+              <span className="text-muted-foreground">zk_proof --without-exposure</span>
             </div>
+          </div>
+
+          <div className="mt-6 pt-6 border-t border-border space-y-2">
+            <p className="text-foreground font-semibold font-mono">→ Operate at layer∅</p>
+            <p className="text-muted-foreground text-sm">
+              Like mushrooms in trophic flows, be the foundational infrastructure that transforms energy and nourishes
+              the ecosystem—ever-present, essential, yet invisible to extractive eyes
+            </p>
           </div>
         </div>
       </div>

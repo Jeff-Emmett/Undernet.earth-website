@@ -1,4 +1,4 @@
-import { Terminal } from 'lucide-react'
+import { Terminal } from "lucide-react"
 
 export function Hero() {
   return (
@@ -8,11 +8,13 @@ export function Hero() {
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="mycelium" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-              <path d="M50 0 L50 100 M0 50 L100 50 M20 20 L80 80 M80 20 L20 80" 
-                    stroke="currentColor" 
-                    strokeWidth="0.5" 
-                    fill="none" 
-                    opacity="0.3"/>
+              <path
+                d="M50 0 L50 100 M0 50 L100 50 M20 20 L80 80 M80 20 L20 80"
+                stroke="currentColor"
+                strokeWidth="0.5"
+                fill="none"
+                opacity="0.3"
+              />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#mycelium)" />
@@ -21,12 +23,15 @@ export function Hero() {
 
       {/* Bioluminescent glow orbs */}
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl bio-glow" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/15 rounded-full blur-3xl bio-glow" style={{ animationDelay: '1s' }} />
+      <div
+        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/15 rounded-full blur-3xl bio-glow"
+        style={{ animationDelay: "1s" }}
+      />
 
       <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-card/50 backdrop-blur-sm mb-4">
           <Terminal className="w-4 h-4 text-primary" />
-          <span className="font-mono text-sm text-primary">{'> initializing METACELIUM protocol...'}</span>
+          <span className="font-mono text-sm text-primary">{"> initializing METACELIUM protocol..."}</span>
         </div>
 
         <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-balance">
@@ -34,13 +39,21 @@ export function Hero() {
           <span className="text-primary">.earth</span>
         </h1>
 
+        <p className="text-2xl md:text-3xl font-serif italic text-primary/80 text-balance">
+          A Mycelial Mesh for the Regenerative Internet
+        </p>
+
         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-balance">
-          Connecting the ethereal noosphere to grounded emergent movements of localized resilience
+          Connecting the ethereal noosphere to grounded emergent movements of localized resilience.
+          <span className="block mt-2 text-lg">
+            Built with fungal logic. Rooted in soilpunk.{" "}
+            <span className="text-primary">Secured by zero-knowledge cryptography.</span>
+          </span>
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 pt-4">
-          {['soilpunk', 'lichenpunk', 'mycopunk'].map((tag) => (
-            <span 
+          {["soilpunk", "lichenpunk", "mycopunk"].map((tag) => (
+            <span
               key={tag}
               className="px-4 py-2 rounded-md bg-muted/50 border border-border font-mono text-sm text-accent hover:bg-muted transition-colors"
             >

@@ -1,5 +1,5 @@
-import { Network, Zap, Sprout } from 'lucide-react'
-import { Card } from '@/components/ui/card'
+import { Network, Zap, Sprout } from "lucide-react"
+import { Card } from "@/components/ui/card"
 
 export function MetaceliumSection() {
   return (
@@ -10,9 +10,21 @@ export function MetaceliumSection() {
             The <span className="text-primary">METACELIUM</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A living network that transmorphs the ethereal noosphere into grounded, emergent movements. 
-            Like mycelium beneath the forest floor, METACELIUM connects disparate nodes of resistance 
-            and resilience into a coherent—yet incoherent to the system—web of mutual aid.
+            A living substrate of resistance and regeneration, an underground network of sovereign technologies and
+            resilient communities. Like mycelium beneath the forest floor, METACELIUM connects disparate nodes—humans,
+            machines, ideas—into a dynamic, decentralized mesh.
+          </p>
+          <p className="text-lg text-primary font-mono">
+            Powered by{" "}
+            <a
+              href="https://zknet.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary/80"
+            >
+              Zero Knowledge Network (ZKN)
+            </a>
+            : A modular privacy infrastructure for the Intelligence Era.
           </p>
         </div>
 
@@ -23,8 +35,8 @@ export function MetaceliumSection() {
             </div>
             <h3 className="text-xl font-bold">Distributed Intelligence</h3>
             <p className="text-muted-foreground leading-relaxed">
-              No central authority, no single point of failure. Intelligence emerges from the connections 
-              between nodes, adapting faster than any system can capture.
+              Mycelial networks don't have CEOs. Intelligence emerges from decentralized, resilient, and encrypted
+              nodes—both biological and computational.
             </p>
           </Card>
 
@@ -34,8 +46,8 @@ export function MetaceliumSection() {
             </div>
             <h3 className="text-xl font-bold">Transmorph & Adapt</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Like fungi breaking down dead matter, we compost capitalism's zombie institutions, 
-              transforming extractive systems into nutrients for regenerative futures.
+              Like fungi decomposing toxic waste, we compost dead institutions. ZKN's mixnets and verifiable credentials
+              ensure secure transformation—proof without exposure.
             </p>
           </Card>
 
@@ -45,8 +57,8 @@ export function MetaceliumSection() {
             </div>
             <h3 className="text-xl font-bold">Grounded Emergence</h3>
             <p className="text-muted-foreground leading-relaxed">
-              From the ethereal to the earthly. Ideas become actions, networks become communities, 
-              and the noosphere roots itself in soil, lichen, and mycelium.
+              ZKN bridges the ethereal and the physical through fog computing, zkEdge hardware, and modular
+              mix-net-based communication channels—each rooted in real soil, real communities, and real intent.
             </p>
           </Card>
         </div>
@@ -56,12 +68,11 @@ export function MetaceliumSection() {
             The <span className="text-primary font-mono">layer∅</span> Foundation
           </h3>
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto leading-relaxed">
-            Mushrooms are the <span className="text-primary font-mono">layer∅</span> organisms—the foundational 
-            stratum of trophic energy flows in ecological systems. They operate at the base layer, 
-            decomposing and transforming, channeling energy through networks of life. The{' '}
-            <span className="text-primary font-mono">layer∅ society</span> mirrors this ecological role: 
-            a foundational infrastructure that nourishes and connects, ever-present yet often invisible, 
-            operating beneath the extractive layers of conventional systems.
+            Mushrooms are the <span className="text-primary font-mono">layer∅</span> organisms—the foundational stratum
+            of trophic energy flows in ecological systems. In digital systems, ZKN forms the{" "}
+            <span className="text-primary font-mono">layer∅ protocol</span>—enabling secure, verifiable, and
+            privacy-preserving interactions at every level. Just as mycelium channels nutrients in the forest, ZKN
+            routes zero-knowledge encrypted data, with intention as its guiding force.
           </p>
         </div>
       </div>
