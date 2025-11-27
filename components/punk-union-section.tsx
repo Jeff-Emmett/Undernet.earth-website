@@ -1,4 +1,4 @@
-import { Sun, Moon, Leaf } from 'lucide-react'
+import { Sun, Moon, Leaf } from "lucide-react"
 
 export function PunkUnionSection() {
   return (
@@ -6,11 +6,11 @@ export function PunkUnionSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
-            The Union of <span className="text-primary">Punks</span>
+            Philosophy <span className="text-primary">& Practice</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Solar meets lunar in the rich soil beneath our feet. The synthesis of high-tech optimism 
-            and low-tech resilience births new forms of resistance.
+            Combining renewable energy optimism with privacy tools and grounded, community-based action. Building
+            infrastructure that resists capture and serves communities.
           </p>
         </div>
 
@@ -23,8 +23,8 @@ export function PunkUnionSection() {
               <div>
                 <h3 className="text-2xl font-bold mb-2">Solarpunk</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Renewable energy, technological optimism, and the belief that we can build 
-                  a sustainable future through innovation and cooperation.
+                  Renewable energy, open hardware, and the tools to build sustainable tech. Optimism grounded in
+                  building what we need ourselves.
                 </p>
               </div>
             </div>
@@ -36,8 +36,8 @@ export function PunkUnionSection() {
               <div>
                 <h3 className="text-2xl font-bold mb-2">Lunarpunk</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Privacy, anonymity, and the shadows. Building systems that resist surveillance 
-                  and control, staying incoherent to the panopticon.
+                  Privacy tools, encrypted communication, and resistance to surveillance. Building systems that stay
+                  invisible to extractive platforms.
                 </p>
               </div>
             </div>
@@ -51,26 +51,33 @@ export function PunkUnionSection() {
               <div>
                 <h3 className="text-2xl font-bold mb-2">Soilpunk</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Grounded in the earth, building from the bottom up. Composting the old to nourish 
-                  the new, recognizing that all growth begins in the soil.
+                  Start where you are, build from the ground up. Transform old institutions by growing resilient
+                  alternatives that work for communities, not corporations.
                 </p>
               </div>
             </div>
 
             <div className="p-6 rounded-lg bg-card/50 border border-border space-y-3">
-              <h4 className="font-mono text-sm text-primary">{'> emerging_forms'}</h4>
+              <h4 className="font-mono text-sm text-primary">{"> in_practice"}</h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <span className="text-accent">→</span>
-                  <span><strong className="text-foreground">Lichenpunk:</strong> Symbiotic relationships, mutual aid networks</span>
+                  <span>
+                    <strong className="text-foreground">Lichenpunk:</strong> Cooperative networks, shared resources
+                  </span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-accent">→</span>
-                  <span><strong className="text-foreground">Mycopunk:</strong> Decomposition and regeneration, network intelligence</span>
+                  <span>
+                    <strong className="text-foreground">Mycopunk:</strong> Mesh networking, distributed intelligence
+                  </span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-accent">→</span>
-                  <span><strong className="text-foreground font-mono">layer∅ organisms:</strong> Fungi as the foundational trophic layer</span>
+                  <span>
+                    <strong className="text-foreground font-mono">layer∅:</strong> Foundational infrastructure everyone
+                    relies on
+                  </span>
                 </li>
               </ul>
             </div>
@@ -79,8 +86,8 @@ export function PunkUnionSection() {
 
         <div className="text-center">
           <p className="text-lg text-muted-foreground italic max-w-2xl mx-auto">
-            "We are the <span className="font-mono text-primary">layer∅</span> organisms—the fungi breaking down the dead wood of capitalism, 
-            the lichen colonizing the ruins, the mycelium connecting the forest floor at the foundational stratum of energy flow."
+            "We build the <span className="font-mono text-primary">layer∅</span> infrastructure—the foundational systems
+            that communities depend on, run by the people who use them."
           </p>
         </div>
       </div>

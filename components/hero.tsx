@@ -31,7 +31,7 @@ export function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-card/50 backdrop-blur-sm mb-4">
           <Terminal className="w-4 h-4 text-primary" />
-          <span className="font-mono text-sm text-primary">{"> initializing METACELIUM protocol..."}</span>
+          <span className="font-mono text-sm text-primary">{"> initializing mesh network..."}</span>
         </div>
 
         <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-balance">
@@ -40,14 +40,14 @@ export function Hero() {
         </h1>
 
         <p className="text-2xl md:text-3xl font-serif italic text-primary/80 text-balance">
-          A Mycelial Mesh for the Regenerative Internet
+          Community-Owned Infrastructure for Local Resilience
         </p>
 
         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-balance">
-          Connecting the ethereal noosphere to grounded emergent movements of localized resilience.
+          Build your own internet infrastructure with privacy-first hardware and open-source software.
           <span className="block mt-2 text-lg">
-            Built with fungal logic. Rooted in soilpunk.{" "}
-            <span className="text-primary">Secured by zero-knowledge cryptography.</span>
+            Run local servers. Own your data.{" "}
+            <span className="text-primary">Connect communities without corporate control.</span>
           </span>
         </p>
 

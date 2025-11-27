@@ -7,12 +7,12 @@ export function MetaceliumSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
-            The <span className="text-primary">METACELIUM</span>
+            The <span className="text-primary">Undernet</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A living substrate of resistance and regeneration, an underground network of sovereign technologies and
-            resilient communities. Like mycelium beneath the forest floor, METACELIUM connects disparate nodes—humans,
-            machines, ideas—into a dynamic, decentralized mesh.
+            A decentralized mesh network for communities, powered by open hardware and privacy-preserving software. Like
+            fungal networks in nature, the undernet connects people and devices into a resilient, community-controlled
+            infrastructure.
           </p>
           <p className="text-lg text-primary font-mono">
             Powered by{" "}
@@ -24,7 +24,7 @@ export function MetaceliumSection() {
             >
               Zero Knowledge Network (ZKN)
             </a>
-            : A modular privacy infrastructure for the Intelligence Era.
+            : Privacy infrastructure for secure communication.
           </p>
         </div>
 
@@ -33,10 +33,10 @@ export function MetaceliumSection() {
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
               <Network className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold">Distributed Intelligence</h3>
+            <h3 className="text-xl font-bold">Decentralized by Design</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Mycelial networks don't have CEOs. Intelligence emerges from decentralized, resilient, and encrypted
-              nodes—both biological and computational.
+              No single point of control. The network runs on community hardware with encrypted connections between
+              nodes—your devices, your neighbors, your data.
             </p>
           </Card>
 
@@ -44,10 +44,10 @@ export function MetaceliumSection() {
             <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center">
               <Zap className="w-6 h-6 text-secondary" />
             </div>
-            <h3 className="text-xl font-bold">Transmorph & Adapt</h3>
+            <h3 className="text-xl font-bold">Adapt & Evolve</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Like fungi decomposing toxic waste, we compost dead institutions. ZKN's mixnets and verifiable credentials
-              ensure secure transformation—proof without exposure.
+              Start with one home router, grow to neighborhood mesh networks. ZKN's verifiable credentials and mixnets
+              ensure privacy scales with your community.
             </p>
           </Card>
 
@@ -55,24 +55,22 @@ export function MetaceliumSection() {
             <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
               <Sprout className="w-6 h-6 text-accent" />
             </div>
-            <h3 className="text-xl font-bold">Grounded Emergence</h3>
+            <h3 className="text-xl font-bold">Rooted Locally</h3>
             <p className="text-muted-foreground leading-relaxed">
-              ZKN bridges the ethereal and the physical through fog computing, zkEdge hardware, and modular
-              mix-net-based communication channels—each rooted in real soil, real communities, and real intent.
+              Run zk-edge hardware in homes, community centers, and local cooperatives. Real devices in real places,
+              owned by the people who use them.
             </p>
           </Card>
         </div>
 
         <div className="mt-16 p-8 rounded-lg bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20">
           <h3 className="text-3xl font-bold mb-4 text-center">
-            The <span className="text-primary font-mono">layer∅</span> Foundation
+            The <span className="text-primary font-mono">layer∅</span> Protocol
           </h3>
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto leading-relaxed">
-            Mushrooms are the <span className="text-primary font-mono">layer∅</span> organisms—the foundational stratum
-            of trophic energy flows in ecological systems. In digital systems, ZKN forms the{" "}
-            <span className="text-primary font-mono">layer∅ protocol</span>—enabling secure, verifiable, and
-            privacy-preserving interactions at every level. Just as mycelium channels nutrients in the forest, ZKN
-            routes zero-knowledge encrypted data, with intention as its guiding force.
+            Fungi are the foundation layer of forest ecosystems—breaking down, connecting, redistributing nutrients. ZKN
+            is the <span className="text-primary font-mono">layer∅ protocol</span> for digital infrastructure: enabling
+            secure, private communication at every level. Privacy as infrastructure, not as an afterthought.
           </p>
         </div>
       </div>

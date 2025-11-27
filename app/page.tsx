@@ -6,6 +6,8 @@ import { PrivacySection } from "@/components/privacy-section"
 import { InfrastructureSection } from "@/components/infrastructure-section"
 import { IntelligenceSection } from "@/components/intelligence-section"
 import { GovernanceSection } from "@/components/governance-section"
+import { MaximinSection } from "@/components/maximin-section"
+import { UnderthrowSection } from "@/components/underthrow-section"
 import { RiparianSection } from "@/components/riparian-section"
 import { NetworkSection } from "@/components/network-section"
 import { Footer } from "@/components/footer"
@@ -21,6 +23,8 @@ export default function Home() {
       <InfrastructureSection />
       <IntelligenceSection />
       <GovernanceSection />
+      <MaximinSection />
+      <UnderthrowSection />
       <RiparianSection />
       <NetworkSection />
       <Footer />
