@@ -9,7 +9,7 @@ export function PunkUnionSection() {
             Philosophy <span className="text-primary">& Practice</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Grounded, underground, networked. Building infrastructure from the soil up, following patterns from nature's
+            Rooted, underground, networked. Building infrastructure from the soil up, following patterns from nature's
             most resilient systems.
           </p>
         </div>
