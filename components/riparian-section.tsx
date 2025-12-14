@@ -20,7 +20,7 @@ export function RiparianSection() {
           className="max-w-4xl mx-auto text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-zinc-100 mb-6">
-            <span className="text-cyan-400">Riparian</span> Data Ecosystems
+            Building <span className="text-cyan-400">Riparian</span> Data Ecosystems
           </h2>
           <p className="text-lg md:text-xl text-zinc-400 font-mono leading-relaxed">
             Just as the most fertile ecosystems emerge where land meets water, the most powerful digital resilience
