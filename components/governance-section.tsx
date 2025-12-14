@@ -73,13 +73,6 @@ export function GovernanceSection() {
         </div>
 
         <div className="p-8 rounded-lg bg-card/50 border border-primary/30 text-center space-y-4">
-          <pre className="font-mono text-[10px] text-primary/20 leading-tight hidden md:block">
-{`      ·─────·─────·
-     /│     │     │\\
-    · │  ·  │  ·  │ ·
-     \\│     │     │/
-      ·─────·─────·`}
-          </pre>
           <p className="text-xl italic text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             "To govern without being governed.
             <br />
@@ -87,13 +80,6 @@ export function GovernanceSection() {
             <br />
             To coordinate without coercion."
           </p>
-          <pre className="font-mono text-[10px] text-primary/20 leading-tight hidden md:block">
-{`      ·─────·─────·
-     \\│     │     │/
-    · │  ·  │  ·  │ ·
-     /│     │     │\\
-      ·─────·─────·`}
-          </pre>
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Crimson_Pro, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { MycelialCursor } from '@/components/mycelial-cursor'
 import './globals.css'
 
 const crimsonPro = Crimson_Pro({ 
@@ -31,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${crimsonPro.className} antialiased`}>
+        <MycelialCursor />
         {children}
         <Analytics />
       </body>

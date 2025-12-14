@@ -64,13 +64,6 @@ export function MetaceliumSection() {
         </div>
 
         <div className="mt-16 p-8 rounded-lg bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20">
-          <pre className="font-mono text-xs text-primary/25 leading-tight text-center mb-4 hidden md:block">
-{`    ·       ·       ·
-    │\\     /│\\     /│
-    │ ·───· │ ·───· │
-    │/     \\│/     \\│
-    ·       ·       ·`}
-          </pre>
           <h3 className="text-3xl font-bold mb-4 text-center">
             The <span className="text-primary font-mono">layer∅</span> Protocol
           </h3>
@@ -79,13 +72,6 @@ export function MetaceliumSection() {
             turn death into life, connecting roots, breaking down toxins, and redistributing nutrients. The METACELIUM
             does the same for digital infrastructure: privacy as the foundational layer, not a luxury feature.
           </p>
-          <pre className="font-mono text-xs text-primary/25 leading-tight text-center mt-4 hidden md:block">
-{`    ·       ·       ·
-    │/     \\│/     \\│
-    │ ·───· │ ·───· │
-    │\\     /│\\     /│
-    ·       ·       ·`}
-          </pre>
         </div>
       </div>
     </section>

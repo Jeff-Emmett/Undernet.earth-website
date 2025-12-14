@@ -86,24 +86,12 @@ export function NetworkSection() {
         </div>
 
         <div className="text-center space-y-6">
-          <pre className="font-mono text-xs text-primary/30 leading-tight mx-auto">
-{`         ·───────·───────·
-        /|\\     /|\\     /|\\
-   ────·─┼─────·─┼─────·─┼─────
-        \\|/     \\|/     \\|/
-         ·───────·───────·`}
-          </pre>
+          <div className="mycelial-line w-full max-w-2xl mx-auto" />
           <p className="text-lg text-muted-foreground italic max-w-2xl mx-auto">
             "Zero knowledge encryption. Mix networks. Local secure hardware. FolkJS coordination substrates. The tools
             for post-appitalist infrastructure exist today."
           </p>
-          <pre className="font-mono text-xs text-primary/30 leading-tight mx-auto">
-{`         ·───────·───────·
-        \\|/     \\|/     \\|/
-   ────·─┼─────·─┼─────·─┼─────
-        /|\\     /|\\     /|\\
-         ·───────·───────·`}
-          </pre>
+          <div className="mycelial-line w-full max-w-2xl mx-auto" />
         </div>
 
         <div className="mt-16 text-center space-y-6 p-12 rounded-lg bg-gradient-to-br from-primary/10 to-secondary/10 border border-primary/30">
