@@ -8,8 +8,8 @@ export function NetworkSection() {
       name: "MycoFi",
       url: "https://mycofi.earth",
       description:
-        "Fungal finance and decentralized cooperation currencies. Economic systems inspired by mycelial networks.",
-      tags: ["mycoeconomics", "regenerative", "web3"],
+        "Post-appitalist economic substrate. Build collaborative currencies and mutual credit systems outside traditional banking.",
+      tags: ["mycoeconomics", "folkjs", "web3"],
     },
     {
       name: "Compost Capitalism",
@@ -21,15 +21,16 @@ export function NetworkSection() {
     {
       name: "Post-Appitalism",
       url: "https://post-appitalism.app",
-      description: "Building digital tools beyond extractive platforms. De-siloification and collective ownership.",
-      tags: ["de-siloification", "liberation", "commons"],
+      description:
+        "Building digital tools beyond extractive platforms. FolkJS-powered collaborative substrates for economic and democratic experimentation.",
+      tags: ["folkjs", "liberation", "commons"],
     },
     {
       name: "ZKNetwork",
       url: "https://zknet.io",
       description:
-        "Privacy-native infrastructure for the Intelligence Era. Metadata-private communications and sovereign compute.",
-      tags: ["zero-knowledge", "privacy", "infrastructure"],
+        "Privacy-native infrastructure for the Intelligence Era. Metadata-private communications and sovereign compute beyond surveillance capitalism.",
+      tags: ["zero-knowledge", "mixnets", "infrastructure"],
     },
   ]
 
@@ -41,8 +42,8 @@ export function NetworkSection() {
             The Network of <span className="text-primary">Networks</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The METACELIUM includes ZKN-powered regenerative nodes. Like mycelium connecting trees in a forest, these
-            projects form an underground network of regenerative resistance.
+            A constellation of projects building collaborative substrates for economic, democratic, and computational
+            design—outside the domain of big tech. New tools for coordination beyond surveillance capitalism.
           </p>
         </div>
 
@@ -87,21 +88,23 @@ export function NetworkSection() {
         <div className="text-center space-y-6">
           <div className="mycelial-line w-full max-w-2xl mx-auto" />
           <p className="text-lg text-muted-foreground italic max-w-2xl mx-auto">
-            "The network is the organism. The organism is the network. We are all nodes in the METACELIUM."
+            "Zero knowledge encryption. Mix networks. Local secure hardware. FolkJS coordination substrates. The tools
+            for post-appitalist infrastructure exist today."
           </p>
           <div className="mycelial-line w-full max-w-2xl mx-auto" />
         </div>
 
         <div className="mt-16 text-center space-y-6 p-12 rounded-lg bg-gradient-to-br from-primary/10 to-secondary/10 border border-primary/30">
-          <h3 className="text-4xl font-bold">Be the Network</h3>
+          <h3 className="text-4xl font-bold">Build Outside Big Tech</h3>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We are building the <span className="text-primary font-mono">layer∅ internet</span>: Invisible to systems of
-            control. Incoherent to extraction. Adaptive to complexity. Aligned with life.
+            We're building collaborative substrates for economic and democratic experimentation—powered by FolkJS,
+            MycoFi currencies, and ZKN privacy infrastructure. New computational design patterns beyond extractive
+            platforms.
           </p>
-          <p className="text-2xl font-bold text-primary">ZKN + Undernet = METACELIUM</p>
+          <p className="text-2xl font-bold text-primary">Zero Knowledge + Local Hardware + FolkJS = Post-Appitalism</p>
           <p className="text-lg text-muted-foreground italic max-w-2xl mx-auto">
-            "This network grows in the spaces between systems, in the margins where control is weak. Like mycelium, we
-            connect, decompose, and regenerate. Join us underground."
+            "Technology for communities, not corporations. Infrastructure you own, software you control, data that stays
+            private. Join the undernet."
           </p>
         </div>
       </div>

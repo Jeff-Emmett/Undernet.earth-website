@@ -20,9 +20,9 @@ export function UndergroundSection() {
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
               <Shield className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="text-xl font-bold">Staying Incoherent</h3>
+            <h3 className="text-xl font-bold">Privacy Underground</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Resist legibility. When systems can't read you, they can't capture you. ZKN's mix-net-based routing
+              Build below the radar. When systems can't track you, they can't monetize you. ZKN's mix-net routing
               shields all communication—no IPs, no timing attacks, no fingerprint trails.
             </p>
           </Card>
@@ -44,8 +44,7 @@ export function UndergroundSection() {
             </div>
             <h3 className="text-xl font-bold">Emergent Resilience</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Strength through diversity and connection. No single point of failure, no central authority to corrupt or
-              capture.
+              Strength through diversity and connection. No single point of failure, no central authority to compromise.
             </p>
           </Card>
         </div>
@@ -55,11 +54,11 @@ export function UndergroundSection() {
           <div className="space-y-3 font-mono text-sm">
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>
-              <span className="text-muted-foreground">stay_incoherent --against-surveillance</span>
+              <span className="text-muted-foreground">build_underground --privacy-first</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>
-              <span className="text-muted-foreground">mesh_connect --resilient-by-design</span>
+              <span className="text-muted-foreground">mesh_connect --zero-knowledge</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>
@@ -79,7 +78,7 @@ export function UndergroundSection() {
             <p className="text-foreground font-semibold font-mono">→ Operate at layer∅</p>
             <p className="text-muted-foreground text-sm">
               Like mushrooms in trophic flows, be the foundational infrastructure that transforms energy and nourishes
-              the ecosystem—ever-present, essential, yet invisible to extractive eyes
+              the ecosystem—ever-present, essential, operating underground
             </p>
           </div>
         </div>

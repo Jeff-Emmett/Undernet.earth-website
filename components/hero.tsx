@@ -51,17 +51,6 @@ export function Hero() {
           </span>
         </p>
 
-        <div className="flex flex-wrap justify-center gap-3 pt-4">
-          {["soilpunk", "lichenpunk", "mycopunk"].map((tag) => (
-            <span
-              key={tag}
-              className="px-4 py-2 rounded-md bg-muted/50 border border-border font-mono text-sm text-accent hover:bg-muted transition-colors"
-            >
-              #{tag}
-            </span>
-          ))}
-        </div>
-
         <div className="pt-8">
           <div className="mycelial-line w-full max-w-md mx-auto" />
         </div>
