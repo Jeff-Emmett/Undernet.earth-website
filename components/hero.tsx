@@ -34,6 +34,16 @@ export function Hero() {
           <span className="font-mono text-sm text-primary">{"> initializing mesh network..."}</span>
         </div>
 
+        {/* ASCII Mycelium Art */}
+        <pre className="font-mono text-xs text-primary/40 leading-tight hidden md:block">
+{`            ·  ·  ·
+           /|\\    /|\\
+      ────·─┼─·──·─┼─·────
+         \\ | /  \\ | /
+          ·│·    ·│·
+           └──────┘`}
+        </pre>
+
         <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-balance">
           <span className="text-foreground">undernet</span>
           <span className="text-primary">.earth</span>

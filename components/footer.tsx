@@ -5,11 +5,18 @@ export function Footer() {
     <footer className="py-12 px-4 border-t border-border bg-muted/20">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
-            <Terminal className="w-5 h-5 text-primary" />
-            <span className="font-mono text-sm text-muted-foreground">
-              {'> METACELIUM_v0.1.0'}
-            </span>
+          <div className="flex items-center gap-4">
+            <pre className="font-mono text-[10px] text-primary/30 leading-none hidden sm:block">
+{`·─·
+│/│
+·─·`}
+            </pre>
+            <div className="flex items-center gap-2">
+              <Terminal className="w-5 h-5 text-primary" />
+              <span className="font-mono text-sm text-muted-foreground">
+                {'> METACELIUM_v0.1.0'}
+              </span>
+            </div>
           </div>
 
           <div className="text-center md:text-right space-y-2">
@@ -22,12 +29,6 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border/50">
-          <p className="text-center text-xs text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            This network grows in the spaces between systems, in the margins where control is weak. 
-            Like mycelium, we connect, decompose, and regenerate. Join us underground.
-          </p>
-        </div>
       </div>
     </footer>
   )

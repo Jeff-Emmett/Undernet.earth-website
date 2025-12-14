@@ -19,21 +19,7 @@ export const metadata: Metadata = {
   keywords: ['soilpunk', 'mycopunk', 'lichenpunk', 'data sovereignty', 'fog computing', 'local infrastructure', 'metacelium', 'noosphere'],
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🕸️</text></svg>',
   },
 }
 
