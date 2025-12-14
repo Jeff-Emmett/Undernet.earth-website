@@ -56,8 +56,8 @@ export function RiparianSection() {
               </h3>
               <p className="text-zinc-400 text-sm leading-relaxed">
                 Data shouldn't be extracted; it should cycle. We build closed regenerative loops where information
-                shared by the community returns value to the individual. Like amphibians moving between realms, our
-                protocols weave between local-first storage and distributed consensus without leakage.
+                shared by the community returns value to the individual. Our protocols weave between local-first
+                storage and distributed consensus without data leaks.
               </p>
             </div>
           </motion.div>
