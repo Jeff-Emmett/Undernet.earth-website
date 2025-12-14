@@ -36,12 +36,11 @@ export function InfrastructureSection() {
                 <Smartphone className="w-6 h-6 text-secondary" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Mist Computing: The Mobile Mist</h3>
+                <h3 className="text-2xl font-bold mb-2">Mist Computing: Droplet Nodes</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Mobile interconnectivity that's local-first and offline-connection friendly. 
-                  The <span className="font-mono text-secondary">mobile mist</span> enables 
-                  peer-to-peer collaboration that adapts to unstable networks, keeping communities 
-                  connected even when the grid fails.
+                  Bring the fog on the road with you. <span className="font-mono text-secondary">Droplet nodes</span> are
+                  secure mobile hotspots that enable local-first, offline-friendly peer-to-peer collaboration.
+                  The mobile mist keeps communities connected even when the grid fails.
                 </p>
               </div>
             </div>
@@ -79,9 +78,23 @@ export function InfrastructureSection() {
                 <Database className="w-6 h-6 text-primary" />
               </div>
               <div>
+                <h3 className="text-2xl font-bold mb-2">Democratizing Data Centers</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Data centers are the largest business model of the future. We're decentralizing and
+                  democratizing this infrastructure—putting the provision and protection of our data
+                  back in community hands, not corporate vaults.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
+                <Cloud className="w-6 h-6 text-secondary" />
+              </div>
+              <div>
                 <h3 className="text-2xl font-bold mb-2">Local Empowerment</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Technical literacy as liberation. Communities that can provision their own 
+                  Technical literacy as liberation. Communities that can provision their own
                   infrastructure are communities that can't be controlled by tech monopolies.
                 </p>
               </div>
