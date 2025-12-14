@@ -65,7 +65,7 @@ export function MetaceliumSection() {
 
         <div className="mt-16 p-8 rounded-lg bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20">
           <h3 className="text-3xl font-bold mb-4 text-center">
-            The <span className="text-primary font-mono">layer∅</span> Protocol
+            Bringing it down to <span className="text-primary font-mono">Layer∅</span>
           </h3>
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto leading-relaxed">
             Fungi are layer∅ organisms—the foundation of forest ecosystems that everyone depends on but few notice. They
