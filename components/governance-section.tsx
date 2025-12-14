@@ -6,7 +6,7 @@ export function GovernanceSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
-            <span className="text-primary">Mycelial</span> Governance
+            Embracing <span className="text-primary">Mycelial</span> Governance Patterns
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Like a forest's root network, our governance is distributed yet coherent, regenerative yet efficient,
