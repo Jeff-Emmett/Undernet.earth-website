@@ -8,7 +8,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <Terminal className="w-5 h-5 text-primary" />
             <span className="font-mono text-sm text-muted-foreground">
-              {'> METACELIUM_v0.1.0'}
+              {'>_ METACELIUM_v0.1.0'}
             </span>
           </div>
 

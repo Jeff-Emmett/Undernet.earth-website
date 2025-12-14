@@ -31,7 +31,7 @@ export function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-card/50 backdrop-blur-sm mb-4">
           <Terminal className="w-4 h-4 text-primary" />
-          <span className="font-mono text-sm text-primary">{"> initializing mesh network..."}</span>
+          <span className="font-mono text-sm text-primary">{">_ initializing mesh network..."}</span>
         </div>
 
         <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-balance">

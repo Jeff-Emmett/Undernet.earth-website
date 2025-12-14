@@ -9,7 +9,7 @@ export function MetaceliumSection() {
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
             Exploring the <span className="text-primary">METAcelium</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground font-mono max-w-3xl mx-auto leading-relaxed">
             Applying mycological principles to build resilient systems. Fungi decompose old systems, form new
             connections, and redistribute resources for regeneration.
           </p>

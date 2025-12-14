@@ -8,7 +8,7 @@ export function GovernanceSection() {
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
             Embracing <span className="text-primary">Mycelial</span> Governance Patterns
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground font-mono max-w-3xl mx-auto leading-relaxed">
             Like a forest's root network, our governance is distributed yet coherent, regenerative yet efficient,
             resilient yet sovereign, encrypted yet transparent (by consent).
           </p>

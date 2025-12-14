@@ -8,7 +8,7 @@ export function InfrastructureSection() {
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
             Self-Provisioned <span className="text-primary">Infrastructure</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground font-mono max-w-3xl mx-auto leading-relaxed">
             Data sovereignty begins with infrastructure sovereignty. Bring the cloud back down to earth 
             through local fog computing and community-owned networks.
           </p>
@@ -103,7 +103,7 @@ export function InfrastructureSection() {
         </div>
 
         <div className="p-8 rounded-lg bg-card/50 border border-primary/30 space-y-4">
-          <h3 className="text-2xl font-bold font-mono text-primary">{'> infrastructure_stack'}</h3>
+          <h3 className="text-2xl font-bold font-mono text-primary">{'>_ infrastructure_stack'}</h3>
           <div className="space-y-3 font-mono text-sm">
             <div className="flex items-center gap-3">
               <span className="text-accent">$</span>

@@ -8,7 +8,7 @@ export function PunkUnionSection() {
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
             Philosophy <span className="text-primary">& Practice</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground font-mono max-w-3xl mx-auto leading-relaxed">
             Rooted, underground, networked. Building infrastructure from the soil up, following patterns from nature's
             most resilient systems.
           </p>
@@ -58,7 +58,7 @@ export function PunkUnionSection() {
 
           <div className="space-y-6">
             <div className="p-6 rounded-lg bg-card/50 border border-border space-y-4">
-              <h4 className="font-mono text-sm text-primary">{"> influenced_by"}</h4>
+              <h4 className="font-mono text-sm text-primary">{">_ influenced_by"}</h4>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <Sun className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -82,7 +82,7 @@ export function PunkUnionSection() {
             </div>
 
             <div className="p-6 rounded-lg bg-card/50 border border-border space-y-3">
-              <h4 className="font-mono text-sm text-primary">{"> layer∅_principles"}</h4>
+              <h4 className="font-mono text-sm text-primary">{">_ layer∅_principles"}</h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <span className="text-accent">→</span>

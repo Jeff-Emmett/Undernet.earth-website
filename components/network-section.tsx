@@ -41,7 +41,7 @@ export function NetworkSection() {
           <h2 className="text-5xl md:text-6xl font-bold text-balance">
             The Network of <span className="text-primary">Networks</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground font-mono max-w-3xl mx-auto leading-relaxed">
             A constellation of projects building collaborative substrates for economic, democratic, and computational
             design—outside the domain of big tech. New tools for coordination beyond surveillance capitalism.
           </p>
