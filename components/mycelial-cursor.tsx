@@ -27,6 +27,9 @@ export function MycelialCursor() {
   const mouseRef = useRef({ x: 0, y: 0 })
   const lastSpawnRef = useRef(0)
   const animationRef = useRef<number>()
+  const isHoldingRef = useRef(false)
+  const holdStartRef = useRef(0)
+  const holdIntervalRef = useRef<NodeJS.Timeout | null>(null)
 
   const createThread = useCallback((x: number, y: number, angle?: number, isChild = false): Thread => {
     const baseOpacity = isChild ? 0.12 : 0.2
@@ -45,12 +48,20 @@ export function MycelialCursor() {
     }
   }, [])
 
-  const spawnThreads = useCallback((x: number, y: number) => {
-    const count = 2 + Math.floor(Math.random() * 2)
+  const spawnThreads = useCallback((x: number, y: number, densityMultiplier = 1) => {
+    const baseCount = 2 + Math.floor(Math.random() * 2)
+    const count = Math.min(Math.floor(baseCount * densityMultiplier), 8)
     for (let i = 0; i < count; i++) {
       threadsRef.current.push(createThread(x, y))
     }
   }, [createThread])
+
+  const getDensityFromHoldTime = useCallback(() => {
+    if (!isHoldingRef.current) return 1
+    const holdDuration = Date.now() - holdStartRef.current
+    // Density increases over 3 seconds of holding, max 4x density
+    return 1 + Math.min(holdDuration / 1000, 3)
+  }, [])
 
   const getThreadLength = (points: Point[]): number => {
     let length = 0
@@ -81,12 +92,38 @@ export function MycelialCursor() {
 
       const now = Date.now()
       if (now - lastSpawnRef.current > 80) {
-        spawnThreads(e.clientX, e.clientY)
+        spawnThreads(e.clientX, e.clientY, getDensityFromHoldTime())
         lastSpawnRef.current = now
       }
     }
 
+    const handleMouseDown = (e: MouseEvent) => {
+      isHoldingRef.current = true
+      holdStartRef.current = Date.now()
+
+      // Initial spawn on click
+      spawnThreads(e.clientX, e.clientY)
+
+      // Continuous spawning while holding
+      holdIntervalRef.current = setInterval(() => {
+        if (isHoldingRef.current) {
+          const density = getDensityFromHoldTime()
+          spawnThreads(mouseRef.current.x, mouseRef.current.y, density)
+        }
+      }, 60) // Spawn every 60ms while holding
+    }
+
+    const handleMouseUp = () => {
+      isHoldingRef.current = false
+      if (holdIntervalRef.current) {
+        clearInterval(holdIntervalRef.current)
+        holdIntervalRef.current = null
+      }
+    }
+
     window.addEventListener("mousemove", handleMouseMove)
+    window.addEventListener("mousedown", handleMouseDown)
+    window.addEventListener("mouseup", handleMouseUp)
 
     const growThread = (thread: Thread) => {
       if (!thread.growing) return
@@ -201,11 +238,16 @@ export function MycelialCursor() {
     return () => {
       window.removeEventListener("resize", resize)
       window.removeEventListener("mousemove", handleMouseMove)
+      window.removeEventListener("mousedown", handleMouseDown)
+      window.removeEventListener("mouseup", handleMouseUp)
       if (animationRef.current) {
         cancelAnimationFrame(animationRef.current)
       }
+      if (holdIntervalRef.current) {
+        clearInterval(holdIntervalRef.current)
+      }
     }
-  }, [createThread, spawnThreads])
+  }, [createThread, spawnThreads, getDensityFromHoldTime])
 
   return (
     <canvas
